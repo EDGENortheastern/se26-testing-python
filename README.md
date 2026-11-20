@@ -9,16 +9,55 @@ A small Python project for practising unit testing. It has one function and a se
 
 ## Getting started
 
+Run these from the project folder. Each block can be copied and pasted in one go.
+
+### 1. Create and activate a virtual environment
+
+**macOS / Linux**
+
 ```bash
-# create and activate a virtual environment
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
+```
 
-# install pytest
-pip install pytest
+**Windows (PowerShell)**
 
-# run the tests
-pytest
+```powershell
+py -m venv .venv
+.venv\Scripts\Activate.ps1
+```
+
+> If PowerShell says running scripts is disabled, run this once, then activate again:
+>
+> ```powershell
+> Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+> ```
+
+**Windows (Command Prompt)**
+
+```bat
+py -m venv .venv
+.venv\Scripts\activate.bat
+```
+
+Once it's active, you'll see `(.venv)` at the start of your terminal prompt.
+
+### 2. Install pytest
+
+```bash
+python -m pip install --upgrade pip pytest
+```
+
+### 3. Run the tests
+
+```bash
+python -m pytest
+```
+
+### Leaving the virtual environment
+
+```bash
+deactivate
 ```
 
 ## Why
