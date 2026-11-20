@@ -1,4 +1,4 @@
-# se26-testing-python
+# Testing Demo
 
 A small Python project for practising unit testing. It has one function and a set of tests that check its behaviour: typical inputs, edge cases and invalid input.
 
