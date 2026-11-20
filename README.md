@@ -13,14 +13,14 @@ Run these from the project folder. Each block can be copied and pasted in one go
 
 ### 1. Create and activate a virtual environment
 
-**macOS / Linux**
+#### macOS / Linux
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-**Windows (PowerShell)**
+#### Windows (PowerShell)
 
 ```powershell
 py -m venv .venv
@@ -33,7 +33,7 @@ py -m venv .venv
 > Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 > ```
 
-**Windows (Command Prompt)**
+#### Windows (Command Prompt)
 
 ```bat
 py -m venv .venv
